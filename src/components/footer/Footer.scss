@@ -1,0 +1,156 @@
+.Footer{
+    background: #4361ee;
+    padding: 0 0 100px 0;
+}
+
+.Footer {
+
+    .about_us{
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid grey;
+        padding-bottom: 30px;
+
+        .about_main{
+            display: flex;
+            align-items: center;
+            gap: 50px;
+
+            .about_list{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+
+                .about_ic{
+
+                    .mail{
+                        color: #fff;
+                    }
+
+                    .call{
+                        color: #fff;
+                    }
+
+                    .location{
+                        color: #fff;
+                    }
+                }
+
+                .about_desc{
+
+                    h2{
+                        font-size: 30px;
+                        color: #fff;
+                        font-weight: 600;
+                    }
+
+                    p{
+                        color: #fff;
+                        font-size: 17px;
+                        line-height: 30px;
+                        opacity: .7;
+                    }
+                }
+            }
+        }
+    }
+
+    .social_section{
+        display: flex;
+        justify-content: center;
+        padding-top: 55px;
+        gap: 50px;
+
+        .contacts_medias{
+
+            p{
+                    color: #fff;
+                    font-size: 17px;
+                    line-height: 30px;
+                    padding-top: 20px;
+                    opacity: .7;
+            }
+
+            .watch_us{
+                h2{
+                    font-size: 30px;
+                    font-weight: 600;
+                    color: #fff;
+                    padding-top: 30px;
+                }
+
+                .contact_icons{
+                    padding-top: 25px;
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    .ic{
+                        cursor: pointer;
+                        color: #fff;
+                        border: 1px solid #fff;
+                        border-radius: 50%;
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+
+        .about-and_reports_section{
+            display: flex;
+            gap: 0 65px;
+
+            .working_links{
+                h2{
+                    font-size: 30px;
+                    font-weight: 600;
+                    color: #fff;
+                }
+
+                .link_main{
+                    padding-top: 35px;
+                    list-style-type: none;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-gap: 60px 70px;
+
+                    .link_list{
+
+                        a{
+                            color: #fff;
+                            font-size: 17px;
+                            line-height: 30px;
+                            opacity: .7;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+
+            .for_clients{
+
+                h2{
+                    font-size: 30px;
+                    font-weight: 600;
+                    color: #fff;
+                }
+
+                p{
+                    color: #fff;
+                    font-size: 17px;
+                    line-height: 30px;
+                    padding-top: 30px;
+                    opacity: .7;
+                }
+            }
+        }
+    }
+}
+
+.work_border{
+    padding-top: 8px;
+    border-bottom: 3px solid #fff;
+    width: 90px;
+}

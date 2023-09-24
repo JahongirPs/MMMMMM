@@ -1,0 +1,56 @@
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    // flex-direction: column;
+    gap: 30px;
+    padding: 20px 90px;
+
+    .language_select{
+        gap: 25px;
+        display: flex;
+
+        img{
+            cursor: pointer;
+            width: 45px;
+        }
+    }
+
+    .contact{
+        display: flex;
+        align-items: center;
+        gap: 37px;
+
+        .callphone{
+
+            a{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                color: #4361ee;
+                text-decoration: none;
+                font-size: 20px;
+            }
+        }
+
+        .mailto{
+
+            a{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                color: #4361ee;
+                text-decoration: none;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.co{
+    color: #4361ee;
+}
+
+.active{
+    border-bottom: 4px solid #4361ee;
+}
